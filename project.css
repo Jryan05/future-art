@@ -1,0 +1,60 @@
+ /*Jayda Ryan, 5/3/23, lab 3, v1 */
+ /*add color pallet*/
+ /*custom property */
+:root {
+	--global-color-1: #372768;
+}
+/* the styles for the elements */
+body {
+	background-color:#E7C6FF;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	color: #372768;
+}
+a:link{
+	color: red;
+	text-decoration: none;
+}
+a:visited {
+	color: grey;
+}
+a:focus, a:hover{
+	font-style: italic;
+	color: #D282A6;
+}
+h2{
+	font-size: 170%;
+	color: var(--global-color-1);
+}
+p{
+	font-size: 100%;
+	line-height: 130%;
+	color: green;
+	text-indent: 2%;	
+}
+#headerborder {
+	border-bottom: 5px double green;
+}
+.smallcaps {
+	font-variant: small-caps;
+}
+
+/* the styles for the header */
+header h1{
+	font-size: 250%;
+	color: #D282A6;
+	text-align: center;	
+    padding: .5em;
+}
+/* the styles for the main content */
+main h2, main h3 {
+	color: var(--global-color-1);
+}
+main h3 {
+	font-size: 140%;
+}
+/* the styles for the footer */
+footer p{
+	font-size: 80%;
+	text-align: center;
+} 
